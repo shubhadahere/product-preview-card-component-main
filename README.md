@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/shubhadahere/product-preview-card-component-main)
-
+- Live Site: (https://shubhadahere.github.io/product-preview-card-component-main/)
 ## My process
 
 ### Built with
