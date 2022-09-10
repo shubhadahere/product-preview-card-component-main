@@ -1,0 +1,127 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  font-size: 2rem;
+  color: hsl(212, 21%, 14%);
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  color: grey;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  margin-bottom: 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+section {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  border-radius: 20px;
+  height: 450px;
+  padding-top: 0;
+}
+
+img {
+  flex: 1 0 50%;
+  object-fit: cover;
+  width: 300px;
+  height: 450px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  background-color: hsl(158, 36%, 37%);
+  color: #fff;
+  padding: 5%;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.desc {
+  padding: 0 5% 0 10%;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.main-price {
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+  font-family: 'Fraunces', serif;
+  font-size: 1.5rem;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+button:hover {
+  background-color: hsl(158, 45%, 20%);
+}
+
+button:active {
+  background-color: hsl(158, 45%, 20%);
+}
+
+.crossed-price {
+  text-decoration: line-through;
+}
+
+.fa-cart-shopping {
+  margin-right: 10px;
+}
+
+.attribution {
+  font-size: 10px;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+  section {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+
+  img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+  }
+
+  .prices {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .attribution {
+    padding-top: 65%;
+  }
+}
